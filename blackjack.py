@@ -41,7 +41,7 @@ def show2():
 def opt():
   o = input("Hit[h]  Stand[s]")
   while o != "h" and o != "s":
-    option = input("Hit[h]  Stand[s]")
+    o = input("Hit[h]  Stand[s]")
   return o
 
 playerturn = False
