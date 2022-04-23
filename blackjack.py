@@ -81,6 +81,8 @@ while playerturn:
         print(f"You are busted!")
         playerturn = False
         gameover = True
+      else:
+        show()
     else:
       show()
 
